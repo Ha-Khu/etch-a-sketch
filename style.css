@@ -21,10 +21,13 @@ h1 {
 }
 
 .squares-container {
-    border: 3px solid red;
     width: 600px;
     height: 600px;
     display: grid;
+}
+
+.squares {
+    border: 1px solid black;
 }
 
 .buttons {
