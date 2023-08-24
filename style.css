@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* HEADER */
 header {
     height: 100px;
 }
 
-main {
+h1 {
+    text-align: center;
+}
+
+/* MAIN */
+.box-section {
     height: 700px;
     display: flex;
     justify-content: center;
@@ -19,8 +24,31 @@ main {
     border: 3px solid red;
     width: 600px;
     height: 600px;
+    display: grid;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.size {
+    color: black;
+    background: #faedcd;
+}
+
+
+/* FOOTER */
 footer {
     height: 100px;
 }
