@@ -24,11 +24,9 @@ h1 {
     width: 600px;
     height: 600px;
     display: grid;
-}
-
-.squares {
     border: 1px solid black;
 }
+
 
 .buttons {
     display: flex;
